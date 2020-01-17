@@ -1,0 +1,24 @@
+{
+    "name": "@wasmcrypto/digest",
+    "version": "0.1.0",
+    "description": "Common interface for digest functions",
+    "main": "lib.js",
+    "repository": "https://github.com/wasmcrypto/digest",
+    "author": "Raphaël Thériault",
+    "license": "MIT",
+    "files": [
+        "lib.js",
+        "lib.d.ts",
+        "LICENSE",
+        "README.md"
+    ],
+    "scripts": {
+        "prepare": "tsc",
+        "build": "tsc",
+        "lint": "prettier --write lib.ts *.{json,md}"
+    },
+    "devDependencies": {
+        "prettier": "^1.19.1",
+        "typescript": "^3.7.5"
+    }
+}
